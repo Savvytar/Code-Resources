@@ -1,0 +1,181 @@
+/* Header */
+.navbar {
+    font-size: 105%;
+}
+
+.nav-link {
+    color: #666666;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.html {
+  background-color: white;
+}
+
+.containerr {
+    padding-left:10px !important;
+    padding-right:10px !important;
+    margin:auto;
+}
+
+/* Footer */
+.footer {
+    padding: 40px 0;
+    background-color: white;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover {
+    opacity: 1;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+/* About */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    border:0;
+  }
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.container{
+    padding-left:100px;
+    padding-right:100px;
+    margin:auto;
+  }
+
+  .section{
+    padding:30px 0px;
+  }
+  .responsive-p{
+    line-height:1.6em;
+  }
+  .h1{
+    font-size:2em;
+    margin: 20px;
+  }
+  .txt-center{
+    text-align:center;
+  }
+  /*end frameWork*/
+  /*********************************/
+  /*start about-us*/
+  .about-us{
+    background-color:#f2f2f2;
+  }
+  .about-us .h1{
+    margin-top:0;
+    color:#7f8c8d;
+    text-transform:uppercase;
+  }
+  .about-us .responsive-p{
+    color:#666;
+  }
+  /*end about-us*/
+  /*start media query*/
+  /*extra small screen mobile and tablet
+  *max-width from 767 to smaller
+  */
+  @media (max-width:767px){
+    .responsive-p{
+    font-size:18px;
+    text-align:center;
+    }
+  }
+  /*small screen 768px - 991px
+  *min-width at least 768 to larger
+  */
+  @media (min-width:768px){
+    .container{
+      width:780px;
+    }
+    .responsive-p{
+      font-size:20px;
+    }
+  }
+  /*medium screen 992px - 1200px*/
+  @media (min-width:992px){
+    .container{
+      width:1000px;
+    }
+    .responsive-p{
+    font-size:22px;
+    }
+  }
+  /*large screen 1200 - ∞ */
+  @media (min-width:1200px){
+    .container{
+      width:1200px;
+    }
+    .responsive-p{
+    font-size:24px;
+    }
+  }
+  /*end media query*/
+  /*********************************/
